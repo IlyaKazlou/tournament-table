@@ -1,0 +1,4 @@
+packages/*/*
+TournamentTable.Tests/obj/*
+*/bin/*
+*/obj/Debug/*

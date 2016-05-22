@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentTable", "TournamentTable\TournamentTable.csproj", "{4DEA3900-2196-4BAE-957D-D8106B62AA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentTable.Tests", "TournamentTable.Tests\TournamentTable.Tests.csproj", "{78EFE751-C415-4F30-B2D0-5BD00E437501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{551BFA6D-4A4E-4B72-91A0-2AE122384DA9}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{3A875D6D-A299-412B-98E2-37C37FB29D5A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\TournamentTable-WAWS-dev.json = PublishScripts\Configurations\TournamentTable-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentTable.Data", "TournamentTable.Data\TournamentTable.Data.csproj", "{AD5CD053-F218-4D06-AB1E-F7E6D9D6C239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentTable.Domain", "TournamentTable.Domain\TournamentTable.Domain.csproj", "{77321A39-E005-4F13-90E8-4EA633C698E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentTable.Service", "TournamentTable.Service\TournamentTable.Service.csproj", "{8150989C-06B3-4BF8-B1CC-4B95B99102C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DEA3900-2196-4BAE-957D-D8106B62AA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEA3900-2196-4BAE-957D-D8106B62AA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEA3900-2196-4BAE-957D-D8106B62AA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEA3900-2196-4BAE-957D-D8106B62AA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EFE751-C415-4F30-B2D0-5BD00E437501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EFE751-C415-4F30-B2D0-5BD00E437501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EFE751-C415-4F30-B2D0-5BD00E437501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EFE751-C415-4F30-B2D0-5BD00E437501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5CD053-F218-4D06-AB1E-F7E6D9D6C239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5CD053-F218-4D06-AB1E-F7E6D9D6C239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5CD053-F218-4D06-AB1E-F7E6D9D6C239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5CD053-F218-4D06-AB1E-F7E6D9D6C239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77321A39-E005-4F13-90E8-4EA633C698E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77321A39-E005-4F13-90E8-4EA633C698E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77321A39-E005-4F13-90E8-4EA633C698E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77321A39-E005-4F13-90E8-4EA633C698E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8150989C-06B3-4BF8-B1CC-4B95B99102C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8150989C-06B3-4BF8-B1CC-4B95B99102C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8150989C-06B3-4BF8-B1CC-4B95B99102C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8150989C-06B3-4BF8-B1CC-4B95B99102C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A875D6D-A299-412B-98E2-37C37FB29D5A} = {551BFA6D-4A4E-4B72-91A0-2AE122384DA9}
+	EndGlobalSection
+EndGlobal
